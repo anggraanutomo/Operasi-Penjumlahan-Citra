@@ -64,7 +64,7 @@ Process finished with exit code 0
 
 import java.util.Arrays;
 
-public class Pengurangan
+public class Biner
 {
     public static void main(String[] args)
     {
