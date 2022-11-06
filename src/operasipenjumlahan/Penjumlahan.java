@@ -1,4 +1,4 @@
-/*
+package operasipenjumlahan;/*
 Diketahui 2 buah citra berikut
 
 Citra A
@@ -16,12 +16,43 @@ Citra B
 Ditanya : Gambarkan citra hasil operasi penjumlahan (citra A + citra B) dan perhitungannya jika diketahui bobot wB
 adalah wB = 0.5
 
- */
+Output Program :
+C(1,1) = (1.0) + (0.5) = 2
+C(1,2) = (1.5) + (0.0) = 2
+C(1,3) = (0.5) + (1.0) = 2
+C(1,4) = (2.0) + (1.5) = 4
+C(1,5) = (2.0) + (0.5) = 3
 
+C(2,1) = (2.5) + (2.0) = 5
+C(2,2) = (0.5) + (3.5) = 4
+C(2,3) = (0.5) + (3.0) = 4
+C(2,4) = (0.5) + (0.5) = 1
+C(2,5) = (1.5) + (0.5) = 2
+
+C(3,1) = (3.5) + (3.5) = 7
+C(3,2) = (0.0) + (2.5) = 3
+C(3,3) = (3.5) + (2.5) = 6
+C(3,4) = (3.5) + (2.5) = 6
+C(3,5) = (0.0) + (2.5) = 3
+
+C(4,1) = (1.0) + (0.5) = 2
+C(4,2) = (1.5) + (2.0) = 4
+C(4,3) = (0.5) + (1.5) = 2
+C(4,4) = (2.5) + (3.5) = 6
+C(4,5) = (3.0) + (0.0) = 3
+
+
+Citra C adalah :
+[2, 2, 2, 4, 3]
+[5, 4, 4, 1, 2]
+[7, 3, 6, 6, 3]
+[2, 4, 2, 6, 3]
+
+ */
 
 import java.util.Arrays;
 
-public class Main
+public class Penjumlahan
 {
     public static void main(String[] args)
     {
